@@ -2,7 +2,6 @@
 
 * {
     box-sizing: border-box;
-    margin: 0;
 }
 
 body {
@@ -70,3 +69,4 @@ tbody tr:nth-child(even) {
     background-color: black;
     color: white
 }
+
