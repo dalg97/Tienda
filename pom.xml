@@ -15,6 +15,7 @@
     <description>Proyecto hecho en clase Web y Patrones</description>
     <properties>
         <java.version>22</java.version>
+        <start-class>com.tienda.TiendaApplication</start-class>
     </properties>
     <dependencies>
         <dependency>
