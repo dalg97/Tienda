@@ -4,6 +4,7 @@ package com.tienda.domain;
 import lombok.Data;
 import java.io.Serializable;
 import jakarta.persistence.*;
+import java.util.List;
 
 @Data //Tag de que la clase es tipo data
 @Entity //Tag de que la clase va a utilizar una entidad
@@ -20,6 +21,10 @@ public class Categoria implements Serializable {
     private String descripcion;
     private String rutaImagen;
     private boolean activo;
+    
+    @OneToMany
+    @JoinColumn(name="id_categoria", updatable=false)
+    List<Producto> productos;
 
     public Categoria() {} 
 
