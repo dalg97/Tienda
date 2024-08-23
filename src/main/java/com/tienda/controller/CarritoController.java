@@ -14,7 +14,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class CarritoController {
 
-    @Autowired
+    
     private ItemService itemService;
     @Autowired
     private ProductoService productoService;
